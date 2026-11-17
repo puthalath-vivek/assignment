@@ -1,0 +1,32 @@
+ • pnpm: ensure_config  
+npm verbose cli /usr/local/n/versions/node/24.16.0/bin/node /usr/local/n/versions/node/24.16.0/bin/npm
+npm info using npm@11.13.0
+npm info using node@v24.16.0
+npm verbose title npm whoami
+npm verbose argv "whoami" "--registry" "https://npm-registry.tracxn.com/" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:/home/tracxn-lp-879/.npm/_logs/2026-11-17T06_53_05_464Z-
+npm verbose logfile /home/tracxn-lp-879/.npm/_logs/2026-11-17T06_53_05_464Z-debug-0.log
+npm verbose stack Error: This command requires you to be logged in.
+npm verbose stack     at module.exports (/usr/local/n/versions/node/24.16.0/lib/node_modules/npm/lib/utils/get-identity.js:22:5)
+npm verbose stack     at Whoami.exec (/usr/local/n/versions/node/24.16.0/lib/node_modules/npm/lib/commands/whoami.js:11:28)
+npm verbose stack     at /usr/local/n/versions/node/24.16.0/lib/node_modules/npm/lib/npm.js:308:81
+npm verbose stack     at Object.start (/usr/local/n/versions/node/24.16.0/lib/node_modules/npm/node_modules/proc-log/lib/index.js:101:21)
+npm verbose stack     at Npm.execCommandClass (/usr/local/n/versions/node/24.16.0/lib/node_modules/npm/lib/npm.js:307:19)
+npm verbose stack     at async Npm.exec (/usr/local/n/versions/node/24.16.0/lib/node_modules/npm/lib/npm.js:193:9)
+npm verbose stack     at async module.exports (/usr/local/n/versions/node/24.16.0/lib/node_modules/npm/lib/cli/entry.js:67:5)
+npm error code ENEEDAUTH
+npm error need auth This command requires you to be logged in.
+npm error need auth You need to authorize this machine using `npm adduser`
+npm verbose cwd /home/tracxn-lp-879
+npm verbose os Linux 7.0.0-43-generic
+npm verbose node v24.16.0
+npm verbose npm  v11.13.0
+npm verbose exit 1
+npm verbose code 1
+npm error A complete log of this run can be found in: /home/tracxn-lp-879/.npm/_logs/2026-11-17T06_53_05_464Z-debug-0.log
+npm warn exec The following package was not found and will be installed: verdaccio-github-oauth-ui@6.0.10
+npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+npm warn deprecated @octokit/webhooks-types@7.6.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+[github-oauth-ui] Version: verdaccio-github-oauth-ui@6.0.10
+[github-oauth-ui] Running command: npm config list --json
